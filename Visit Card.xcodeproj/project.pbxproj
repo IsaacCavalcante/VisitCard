@@ -11,6 +11,8 @@
 		5890D22A25F7EAFD00572078 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5890D22925F7EAFD00572078 /* ContentView.swift */; };
 		5890D22C25F7EB0000572078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5890D22B25F7EB0000572078 /* Assets.xcassets */; };
 		5890D22F25F7EB0000572078 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5890D22E25F7EB0000572078 /* Preview Assets.xcassets */; };
+		5890D23925F7EE9800572078 /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5890D23825F7EE9800572078 /* Satisfy-Regular.ttf */; };
+		5890D23C25F7F24400572078 /* Courgette-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5890D23B25F7F24400572078 /* Courgette-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5890D22B25F7EB0000572078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5890D22E25F7EB0000572078 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5890D23025F7EB0000572078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5890D23825F7EE9800572078 /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satisfy-Regular.ttf"; sourceTree = "<group>"; };
+		5890D23B25F7F24400572078 /* Courgette-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courgette-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		5890D22625F7EAFD00572078 /* Visit Card */ = {
 			isa = PBXGroup;
 			children = (
+				5890D23725F7EE8500572078 /* Fonts */,
 				5890D22725F7EAFD00572078 /* Visit_CardApp.swift */,
 				5890D22925F7EAFD00572078 /* ContentView.swift */,
 				5890D22B25F7EB0000572078 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				5890D22E25F7EB0000572078 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5890D23725F7EE8500572078 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5890D23B25F7F24400572078 /* Courgette-Regular.ttf */,
+				5890D23825F7EE9800572078 /* Satisfy-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5890D23925F7EE9800572078 /* Satisfy-Regular.ttf in Resources */,
 				5890D22F25F7EB0000572078 /* Preview Assets.xcassets in Resources */,
+				5890D23C25F7F24400572078 /* Courgette-Regular.ttf in Resources */,
 				5890D22C25F7EB0000572078 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
